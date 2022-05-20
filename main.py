@@ -1,7 +1,7 @@
 """
     Topic： 车辆违章信息查询系统
-    Create: Sta Oct 3 23:20 2020
-    Update: Fir Oct 9 22:22 2020
+    Create: 2020-10-03
+    Update: 2022-05-20
     Author: Zhiyuan Tao
 """
 
@@ -16,12 +16,12 @@ class Home(object):
 
     # 读取管理员csv文件
     def get_manager_csv():
-        user_csv = pd.read_csv(r'E:\车辆违章查询系统\manager.csv', encoding='GBK')
+        user_csv = pd.read_csv(r'./dataset/manager.csv', encoding='GBK')
         return user_csv
     
     # 读取用户信息csv文件
     def get_user_csv():
-        user_csv = pd.read_csv(r'E:\车辆违章查询系统\user.csv', encoding='GBK')
+        user_csv = pd.read_csv(r'./dataset/user.csv', encoding='GBK')
         return user_csv
    
     ## 跳转到指定功能

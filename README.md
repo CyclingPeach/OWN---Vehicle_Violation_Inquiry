@@ -2,4 +2,4 @@
 
 ### 功能模块框架
 
-![avatar](https://github.com/CyclingPeach/OWN---Vehicle_Violation_Inquiry/blob/main/%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97.png)
+![avatar](./image/功能模块.png)
